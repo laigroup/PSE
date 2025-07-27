@@ -1,0 +1,197 @@
+[
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/Integrated_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/Integrated_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/Integrated_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/CDD_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/CDD_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/CDD_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/DNNF_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/DNNF_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/DNNF_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/R2D2_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/R2D2_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/R2D2_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/RCDD_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/RCDD_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/RCDD_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/CCDD_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/CCDD_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/CCDD_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Compilers/Partial_Compiler.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Compilers/Partial_Compiler.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Compilers/Partial_Compiler.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Component_Types/Incremental_Component_BigInt.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Component_Types/Incremental_Component_BigInt.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Component_Types/Incremental_Component_BigInt.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Counters/KCounter.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Counters/KCounter.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Counters/KCounter.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Counters/ECounter.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Counters/ECounter.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Counters/ECounter.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Counters/WCounter.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Counters/WCounter.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Counters/WCounter.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/DAG.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/DAG.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/DAG.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/OBDD.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/OBDD.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/OBDD.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/OBDD[AND].cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/OBDD[AND].cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/OBDD[AND].cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/CDD.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/CDD.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/CDD.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/DecDNNF.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/DecDNNF.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/DecDNNF.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/RCDD.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/RCDD.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/RCDD.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/RRCDD.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/RRCDD.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/RRCDD.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/KC_Languages/CCDD.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/KC_Languages/CCDD.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/KC_Languages/CCDD.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Weighted_Languages/Partial_CCDD.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Weighted_Languages/Partial_CCDD.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Weighted_Languages/Partial_CCDD.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Primitive_Types/Assignment.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Primitive_Types/Assignment.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Primitive_Types/Assignment.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Primitive_Types/CNF_Formula.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Primitive_Types/CNF_Formula.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Primitive_Types/CNF_Formula.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Primitive_Types/Lit_Equivalency.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Primitive_Types/Lit_Equivalency.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Primitive_Types/Lit_Equivalency.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Template_Library/Basic_Functions.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Template_Library/Basic_Functions.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Template_Library/Basic_Functions.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Template_Library/BigNum.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Template_Library/BigNum.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Template_Library/BigNum.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Template_Library/Graph_Structures.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Template_Library/Graph_Structures.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Template_Library/Graph_Structures.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Template_Library/Mersenne.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Template_Library/Mersenne.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Template_Library/Mersenne.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/CustomizedSolver.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/CustomizedSolver.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/CustomizedSolver.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Extensive_Inprocessor.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Extensive_Inprocessor.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Extensive_Inprocessor.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Inprocessor.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Inprocessor.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Inprocessor.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Main.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Main.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Main.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/minisatInterface.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/minisatInterface.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/minisatInterface.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Preprocessor.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Preprocessor.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Preprocessor.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Solver.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Solver.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Solver.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/PSE.dir/src/Solver_Krom.cpp.o -c /home/thl/workspace/SAT2025/PSE/src/Solver_Krom.cpp",
+  "file": "/home/thl/workspace/SAT2025/PSE/src/Solver_Krom.cpp"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/minisat-lib-static.dir/minisat/utils/Options.cc.o -c /home/thl/workspace/SAT2025/PSE/minisat/utils/Options.cc",
+  "file": "/home/thl/workspace/SAT2025/PSE/minisat/utils/Options.cc"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/minisat-lib-static.dir/minisat/utils/System.cc.o -c /home/thl/workspace/SAT2025/PSE/minisat/utils/System.cc",
+  "file": "/home/thl/workspace/SAT2025/PSE/minisat/utils/System.cc"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/minisat-lib-static.dir/minisat/core/Solver.cc.o -c /home/thl/workspace/SAT2025/PSE/minisat/core/Solver.cc",
+  "file": "/home/thl/workspace/SAT2025/PSE/minisat/core/Solver.cc"
+},
+{
+  "directory": "/home/thl/workspace/SAT2025/PSE/scripts",
+  "command": "/usr/bin/c++  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/thl/workspace/SAT2025/PSE -I/home/thl/workspace/SAT2025/PSE/minisat -I/home/thl/workspace/SAT2025/PSE/src   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -Wno-class-memaccess   -g -pthread -O2 -fPIC -std=gnu++11 -o CMakeFiles/minisat-lib-static.dir/minisat/simp/SimpSolver.cc.o -c /home/thl/workspace/SAT2025/PSE/minisat/simp/SimpSolver.cc",
+  "file": "/home/thl/workspace/SAT2025/PSE/minisat/simp/SimpSolver.cc"
+}
+]

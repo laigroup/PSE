@@ -1,0 +1,943 @@
+The system is: Linux - 6.6.87.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96844/fast && /usr/bin/make -f CMakeFiles/cmTC_96844.dir/build.make CMakeFiles/cmTC_96844.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96844.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96844.dir/testCCompiler.c.o   -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_96844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96844.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_96844.dir/testCCompiler.c.o  -o cmTC_96844 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_693a6/fast && /usr/bin/make -f CMakeFiles/cmTC_693a6.dir/build.make CMakeFiles/cmTC_693a6.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGQxdSd.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d50f9baaf86b1ab1ea2b5e982c779df7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o /tmp/ccGQxdSd.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_693a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693a6.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o  -o cmTC_693a6 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_693a6' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqPEwdE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_693a6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_693a6' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_693a6/fast && /usr/bin/make -f CMakeFiles/cmTC_693a6.dir/build.make CMakeFiles/cmTC_693a6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGQxdSd.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d50f9baaf86b1ab1ea2b5e982c779df7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o /tmp/ccGQxdSd.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_693a6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693a6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o  -o cmTC_693a6 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_693a6' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqPEwdE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_693a6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqPEwdE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_693a6] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_693a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0c87/fast && /usr/bin/make -f CMakeFiles/cmTC_c0c87.dir/build.make CMakeFiles/cmTC_c0c87.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0c87.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c0c87.dir/testCXXCompiler.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c0c87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c87.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c0c87.dir/testCXXCompiler.cxx.o  -o cmTC_c0c87 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0e0a/fast && /usr/bin/make -f CMakeFiles/cmTC_a0e0a.dir/build.make CMakeFiles/cmTC_a0e0a.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc72svMn.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 83d7bb95fd72194d0a05edf92f8757fb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc72svMn.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_a0e0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0e0a.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0e0a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a0e0a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwdPV8R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0e0a /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a0e0a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a0e0a/fast && /usr/bin/make -f CMakeFiles/cmTC_a0e0a.dir/build.make CMakeFiles/cmTC_a0e0a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc72svMn.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.3) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 83d7bb95fd72194d0a05edf92f8757fb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc72svMn.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_a0e0a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0e0a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a0e0a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.3' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-05ho5U/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a0e0a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwdPV8R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0e0a /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwdPV8R.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a0e0a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_a0e0a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wall succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81f34/fast && /usr/bin/make -f CMakeFiles/cmTC_81f34.dir/build.make CMakeFiles/cmTC_81f34.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81f34.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_FLAG_-Wall   -Wall -o CMakeFiles/cmTC_81f34.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_81f34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81f34.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_FLAG_-Wall  -static  -rdynamic CMakeFiles/cmTC_81f34.dir/src.cxx.o  -o cmTC_81f34 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wextra succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9cafa/fast && /usr/bin/make -f CMakeFiles/cmTC_9cafa.dir/build.make CMakeFiles/cmTC_9cafa.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9cafa.dir/src.cxx.o
+/usr/bin/c++    -Wall -DHAVE_FLAG_-Wextra   -Wextra -o CMakeFiles/cmTC_9cafa.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_9cafa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cafa.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -DHAVE_FLAG_-Wextra  -static  -rdynamic CMakeFiles/cmTC_9cafa.dir/src.cxx.o  -o cmTC_9cafa 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wunused succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6dc9d/fast && /usr/bin/make -f CMakeFiles/cmTC_6dc9d.dir/build.make CMakeFiles/cmTC_6dc9d.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6dc9d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -DHAVE_FLAG_-Wunused   -Wunused -o CMakeFiles/cmTC_6dc9d.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_6dc9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dc9d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -DHAVE_FLAG_-Wunused  -static  -rdynamic CMakeFiles/cmTC_6dc9d.dir/src.cxx.o  -o cmTC_6dc9d 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wsign-compare succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ba65/fast && /usr/bin/make -f CMakeFiles/cmTC_9ba65.dir/build.make CMakeFiles/cmTC_9ba65.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ba65.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -DHAVE_FLAG_-Wsign-compare   -Wsign-compare -o CMakeFiles/cmTC_9ba65.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_9ba65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ba65.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -DHAVE_FLAG_-Wsign-compare  -static  -rdynamic CMakeFiles/cmTC_9ba65.dir/src.cxx.o  -o cmTC_9ba65 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fno-omit-frame-pointer succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_916fb/fast && /usr/bin/make -f CMakeFiles/cmTC_916fb.dir/build.make CMakeFiles/cmTC_916fb.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_916fb.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -DHAVE_FLAG_-fno-omit-frame-pointer   -fno-omit-frame-pointer -o CMakeFiles/cmTC_916fb.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_916fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_916fb.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -DHAVE_FLAG_-fno-omit-frame-pointer  -static  -rdynamic CMakeFiles/cmTC_916fb.dir/src.cxx.o  -o cmTC_916fb 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wtype-limits succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8fa8/fast && /usr/bin/make -f CMakeFiles/cmTC_d8fa8.dir/build.make CMakeFiles/cmTC_d8fa8.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8fa8.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -DHAVE_FLAG_-Wtype-limits   -Wtype-limits -o CMakeFiles/cmTC_d8fa8.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_d8fa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8fa8.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -DHAVE_FLAG_-Wtype-limits  -static  -rdynamic CMakeFiles/cmTC_d8fa8.dir/src.cxx.o  -o cmTC_d8fa8 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wuninitialized succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53e09/fast && /usr/bin/make -f CMakeFiles/cmTC_53e09.dir/build.make CMakeFiles/cmTC_53e09.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53e09.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -DHAVE_FLAG_-Wuninitialized   -Wuninitialized -o CMakeFiles/cmTC_53e09.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_53e09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e09.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -DHAVE_FLAG_-Wuninitialized  -static  -rdynamic CMakeFiles/cmTC_53e09.dir/src.cxx.o  -o cmTC_53e09 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-deprecated succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0343/fast && /usr/bin/make -f CMakeFiles/cmTC_f0343.dir/build.make CMakeFiles/cmTC_f0343.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0343.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -DHAVE_FLAG_-Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTC_f0343.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_f0343
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0343.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -DHAVE_FLAG_-Wno-deprecated  -static  -rdynamic CMakeFiles/cmTC_f0343.dir/src.cxx.o  -o cmTC_f0343 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wstrict-aliasing succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0055/fast && /usr/bin/make -f CMakeFiles/cmTC_e0055.dir/build.make CMakeFiles/cmTC_e0055.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0055.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -DHAVE_FLAG_-Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_e0055.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_e0055
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0055.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -DHAVE_FLAG_-Wstrict-aliasing  -static  -rdynamic CMakeFiles/cmTC_e0055.dir/src.cxx.o  -o cmTC_e0055 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wpointer-arith succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42373/fast && /usr/bin/make -f CMakeFiles/cmTC_42373.dir/build.make CMakeFiles/cmTC_42373.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42373.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -DHAVE_FLAG_-Wpointer-arith   -Wpointer-arith -o CMakeFiles/cmTC_42373.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_42373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42373.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -DHAVE_FLAG_-Wpointer-arith  -static  -rdynamic CMakeFiles/cmTC_42373.dir/src.cxx.o  -o cmTC_42373 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat-nonliteral succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbc50/fast && /usr/bin/make -f CMakeFiles/cmTC_fbc50.dir/build.make CMakeFiles/cmTC_fbc50.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbc50.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -DHAVE_FLAG_-Wformat-nonliteral   -Wformat-nonliteral -o CMakeFiles/cmTC_fbc50.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_fbc50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbc50.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -DHAVE_FLAG_-Wformat-nonliteral  -static  -rdynamic CMakeFiles/cmTC_fbc50.dir/src.cxx.o  -o cmTC_fbc50 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Winit-self succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa7a0/fast && /usr/bin/make -f CMakeFiles/cmTC_aa7a0.dir/build.make CMakeFiles/cmTC_aa7a0.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa7a0.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -DHAVE_FLAG_-Winit-self   -Winit-self -o CMakeFiles/cmTC_aa7a0.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_aa7a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa7a0.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -DHAVE_FLAG_-Winit-self  -static  -rdynamic CMakeFiles/cmTC_aa7a0.dir/src.cxx.o  -o cmTC_aa7a0 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wparentheses succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_577e4/fast && /usr/bin/make -f CMakeFiles/cmTC_577e4.dir/build.make CMakeFiles/cmTC_577e4.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_577e4.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -DHAVE_FLAG_-Wparentheses   -Wparentheses -o CMakeFiles/cmTC_577e4.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_577e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_577e4.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -DHAVE_FLAG_-Wparentheses  -static  -rdynamic CMakeFiles/cmTC_577e4.dir/src.cxx.o  -o cmTC_577e4 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wunreachable-code succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_592fa/fast && /usr/bin/make -f CMakeFiles/cmTC_592fa.dir/build.make CMakeFiles/cmTC_592fa.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_592fa.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -DHAVE_FLAG_-Wunreachable-code   -Wunreachable-code -o CMakeFiles/cmTC_592fa.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_592fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_592fa.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -DHAVE_FLAG_-Wunreachable-code  -static  -rdynamic CMakeFiles/cmTC_592fa.dir/src.cxx.o  -o cmTC_592fa 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-ggdb3 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1dfc8/fast && /usr/bin/make -f CMakeFiles/cmTC_1dfc8.dir/build.make CMakeFiles/cmTC_1dfc8.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1dfc8.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -DHAVE_FLAG_-ggdb3   -ggdb3 -o CMakeFiles/cmTC_1dfc8.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_1dfc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dfc8.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -DHAVE_FLAG_-ggdb3  -static  -rdynamic CMakeFiles/cmTC_1dfc8.dir/src.cxx.o  -o cmTC_1dfc8 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wlogical-op succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bc7c/fast && /usr/bin/make -f CMakeFiles/cmTC_9bc7c.dir/build.make CMakeFiles/cmTC_9bc7c.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9bc7c.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -DHAVE_FLAG_-Wlogical-op   -Wlogical-op -o CMakeFiles/cmTC_9bc7c.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_9bc7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bc7c.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -DHAVE_FLAG_-Wlogical-op  -static  -rdynamic CMakeFiles/cmTC_9bc7c.dir/src.cxx.o  -o cmTC_9bc7c 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wrestrict succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc01e/fast && /usr/bin/make -f CMakeFiles/cmTC_fc01e.dir/build.make CMakeFiles/cmTC_fc01e.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fc01e.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -DHAVE_FLAG_-Wrestrict   -Wrestrict -o CMakeFiles/cmTC_fc01e.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_fc01e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc01e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -DHAVE_FLAG_-Wrestrict  -static  -rdynamic CMakeFiles/cmTC_fc01e.dir/src.cxx.o  -o cmTC_fc01e 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wnull-dereference succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e813/fast && /usr/bin/make -f CMakeFiles/cmTC_5e813.dir/build.make CMakeFiles/cmTC_5e813.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e813.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -DHAVE_FLAG_-Wnull-dereference   -Wnull-dereference -o CMakeFiles/cmTC_5e813.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_5e813
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e813.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -DHAVE_FLAG_-Wnull-dereference  -static  -rdynamic CMakeFiles/cmTC_5e813.dir/src.cxx.o  -o cmTC_5e813 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wdouble-promotion succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53901/fast && /usr/bin/make -f CMakeFiles/cmTC_53901.dir/build.make CMakeFiles/cmTC_53901.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53901.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -DHAVE_FLAG_-Wdouble-promotion   -Wdouble-promotion -o CMakeFiles/cmTC_53901.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_53901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53901.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -DHAVE_FLAG_-Wdouble-promotion  -static  -rdynamic CMakeFiles/cmTC_53901.dir/src.cxx.o  -o cmTC_53901 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wshadow succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a847/fast && /usr/bin/make -f CMakeFiles/cmTC_4a847.dir/build.make CMakeFiles/cmTC_4a847.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a847.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -DHAVE_FLAG_-Wshadow   -Wshadow -o CMakeFiles/cmTC_4a847.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_4a847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a847.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -DHAVE_FLAG_-Wshadow  -static  -rdynamic CMakeFiles/cmTC_4a847.dir/src.cxx.o  -o cmTC_4a847 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a59ac/fast && /usr/bin/make -f CMakeFiles/cmTC_a59ac.dir/build.make CMakeFiles/cmTC_a59ac.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a59ac.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_a59ac.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_a59ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a59ac.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_a59ac.dir/src.cxx.o  -o cmTC_a59ac 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wextra-semi succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b67cc/fast && /usr/bin/make -f CMakeFiles/cmTC_b67cc.dir/build.make CMakeFiles/cmTC_b67cc.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b67cc.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -DHAVE_FLAG_-Wextra-semi   -Wextra-semi -o CMakeFiles/cmTC_b67cc.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_b67cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b67cc.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -DHAVE_FLAG_-Wextra-semi  -static  -rdynamic CMakeFiles/cmTC_b67cc.dir/src.cxx.o  -o cmTC_b67cc 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-pedantic succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ed75/fast && /usr/bin/make -f CMakeFiles/cmTC_6ed75.dir/build.make CMakeFiles/cmTC_6ed75.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ed75.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -DHAVE_FLAG_-pedantic   -pedantic -o CMakeFiles/cmTC_6ed75.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_6ed75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ed75.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -DHAVE_FLAG_-pedantic  -static  -rdynamic CMakeFiles/cmTC_6ed75.dir/src.cxx.o  -o cmTC_6ed75 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-class-memaccess succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34ccf/fast && /usr/bin/make -f CMakeFiles/cmTC_34ccf.dir/build.make CMakeFiles/cmTC_34ccf.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34ccf.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -DHAVE_FLAG_-Wno-class-memaccess   -Wno-class-memaccess -o CMakeFiles/cmTC_34ccf.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_34ccf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ccf.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -Wextra-semi -pedantic -DHAVE_FLAG_-Wno-class-memaccess  -static  -rdynamic CMakeFiles/cmTC_34ccf.dir/src.cxx.o  -o cmTC_34ccf 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c955/fast && /usr/bin/make -f CMakeFiles/cmTC_1c955.dir/build.make CMakeFiles/cmTC_1c955.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1c955.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_1c955.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_1c955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c955.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_1c955.dir/src.cxx.o  -o cmTC_1c955 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13b2d/fast && /usr/bin/make -f CMakeFiles/cmTC_13b2d.dir/build.make CMakeFiles/cmTC_13b2d.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13b2d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_13b2d.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_13b2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13b2d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_13b2d.dir/src.cxx.o  -o cmTC_13b2d 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ee03/fast && /usr/bin/make -f CMakeFiles/cmTC_6ee03.dir/build.make CMakeFiles/cmTC_6ee03.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ee03.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_6ee03.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_6ee03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ee03.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_6ee03.dir/src.cxx.o  -o cmTC_6ee03 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11c60/fast && /usr/bin/make -f CMakeFiles/cmTC_11c60.dir/build.make CMakeFiles/cmTC_11c60.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11c60.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_11c60.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_11c60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11c60.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_11c60.dir/src.cxx.o  -o cmTC_11c60 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59f93/fast && /usr/bin/make -f CMakeFiles/cmTC_59f93.dir/build.make CMakeFiles/cmTC_59f93.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59f93.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_59f93.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_59f93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59f93.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_59f93.dir/src.cxx.o  -o cmTC_59f93 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ceb64/fast && /usr/bin/make -f CMakeFiles/cmTC_ceb64.dir/build.make CMakeFiles/cmTC_ceb64.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ceb64.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_ceb64.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_ceb64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb64.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2  -static  -rdynamic CMakeFiles/cmTC_ceb64.dir/src.cxx.o  -o cmTC_ceb64 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

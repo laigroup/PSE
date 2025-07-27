@@ -1,0 +1,49 @@
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wheader-guard failed with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e1ba/fast && /usr/bin/make -f CMakeFiles/cmTC_3e1ba.dir/build.make CMakeFiles/cmTC_3e1ba.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e1ba.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-Wheader-guard   -Wheader-guard -o CMakeFiles/cmTC_3e1ba.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wheader-guard'
+make[1]: *** [CMakeFiles/cmTC_3e1ba.dir/build.make:66: CMakeFiles/cmTC_3e1ba.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3e1ba/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-bitfield-constant-conversion failed with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8d3d/fast && /usr/bin/make -f CMakeFiles/cmTC_f8d3d.dir/build.make CMakeFiles/cmTC_f8d3d.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8d3d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -DHAVE_FLAG_-Wno-bitfield-constant-conversion   -Wno-bitfield-constant-conversion -o CMakeFiles/cmTC_f8d3d.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-bitfield-constant-conversion'
+Linking CXX executable cmTC_f8d3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8d3d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -DHAVE_FLAG_-Wno-bitfield-constant-conversion  -static  -rdynamic CMakeFiles/cmTC_f8d3d.dir/src.cxx.o  -o cmTC_f8d3d 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wjump-misses-init failed with the following output:
+Change Dir: /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a524d/fast && /usr/bin/make -f CMakeFiles/cmTC_a524d.dir/build.make CMakeFiles/cmTC_a524d.dir/build
+make[1]: Entering directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a524d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -DHAVE_FLAG_-Wjump-misses-init   -Wjump-misses-init -o CMakeFiles/cmTC_a524d.dir/src.cxx.o -c /home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option '-Wjump-misses-init' is valid for C/ObjC but not for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_a524d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a524d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -DHAVE_FLAG_-Wjump-misses-init  -static  -rdynamic CMakeFiles/cmTC_a524d.dir/src.cxx.o  -o cmTC_a524d 
+make[1]: Leaving directory '/home/thl/workspace/SAT2025/PSE/scripts/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
