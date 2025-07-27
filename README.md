@@ -1,5 +1,12 @@
 # PSE
 
+## Prerequisites
+
+```
+sudo apt-get install build-essential cmake
+sudo apt-get install zlib1g.dev
+sudo apt-get install libgmp-dev
+```
 
 ## Commands
 
@@ -7,11 +14,11 @@
 mkdir build && cd build
 cp ../scripts/build.sh .
 chmod u+x build.sh
-./build.sh  ## if you want to build a single tool, please use "./build.sh toolname" insteadc
+./build.sh  
 ```
 
 ## Usage
 
 ### Using Binary
 
-Use "PSE --help" to see the usage of the toolkit.W
+Use "PSE --help" to see the usage of the tool.
